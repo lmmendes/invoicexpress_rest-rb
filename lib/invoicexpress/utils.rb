@@ -2,7 +2,7 @@ module Invoicexpress
   module Utils
     class << self
       def singularize(str)
-        str.gsub(/es$/, '').gsub(/s$/, '')
+        str.gsub(/s$/, '')
       end
 
       def constantize(camel_cased_word)
